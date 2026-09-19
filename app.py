@@ -1312,9 +1312,8 @@ with tab_predict:
                         "contributing to elevated risk."
                     )
 
-        # ----------------------------------------------------
         # RESULT SUMMARY
-        # ----------------------------------------------------
+        
         st.divider()
         st.markdown("### 📄 Project Summary")
 
