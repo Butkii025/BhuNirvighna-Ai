@@ -12,6 +12,7 @@
 ![States Covered](https://img.shields.io/badge/States%20Covered-16-2b2d76?style=for-the-badge)
 ![Explainable AI](https://img.shields.io/badge/Explainability-SHAP-b5871a?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Prototype-orange?style=for-the-badge)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 </div>
 
@@ -86,6 +87,26 @@ BhuNirvighna-Ai/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
+
+## [Visuals](visuals)
+
+All the Graph Based On Datasets with different perspective
+
+<img src="visuals/01_delay_by_compensation_status.png" alt="delay_by_compensation_status" width="500"/>
+<img src="visuals/07_delay_pie_chart.png" alt="delay_pie_chart" width="500"/>
+
+## [Working](workflow.md)
+
+```mermaid
+graph LR
+    Step1["Step 1: Data Acquisition & Preparation"] --> Step2["Step 2: Exploratory Data Analysis (EDA)"]
+    Step2 --> Step3["Step 3: Model Training"]
+    Step3 --> Step4["Step 4: Explainability Integration"]
+    Step4 --> Step5["Step 5: Dashboard Development"]
+    Step5 --> Step6["Step 6: Alerting & Recommendation Logic"]
+    Step6 --> Step7["Step 7: Testing & Validation"]
+    Step7 --> Step8["Step 8: Packaging for Demonstration"]
 ```
 
 ## 🎯 Vision
